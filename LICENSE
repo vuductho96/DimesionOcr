@@ -1,21 +1,118 @@
-MIT License
+DimensionOCR - Third Party Notices
+Generated: 2026-06-25
 
-Copyright (c) 2026 vuductho96
+This application includes third-party open-source components. The list below is
+for the redistributable portable package in this folder. License terms remain
+owned by their respective authors.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Main OCR and image-processing components
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+- RapidOcrNet 2.0.0
+  License: Apache-2.0
+  Project: https://github.com/BobLd/RapidOcrNet
+  License text: https://licenses.nuget.org/Apache-2.0
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- PaddleOCR / PP-OCR ONNX models
+  License: Apache-2.0
+  Project: https://github.com/PaddlePaddle/PaddleOCR
+  License text: https://licenses.nuget.org/Apache-2.0
+
+- PaddleOCR.Onnx 1.2.0
+  License metadata: not declared in NuGet package
+  Project: https://github.com/raoyutian/PaddleOCROnnx
+  Note: review upstream project terms before public redistribution.
+
+- Microsoft.ML.OnnxRuntime 1.24.3 / Microsoft.ML.OnnxRuntime.Managed 1.24.3
+  License: MIT
+  Project: https://github.com/microsoft/onnxruntime
+  License text: https://licenses.nuget.org/MIT
+
+- SkiaSharp 3.119.1 / SkiaSharp.NativeAssets.Win32 3.119.1
+  License: MIT
+  Project: https://github.com/mono/SkiaSharp
+  License text: https://licenses.nuget.org/MIT
+
+- Clipper2 2.0.0
+  License metadata: package license file
+  Project: https://www.angusj.com/clipper2/Docs/Overview.htm
+  Note: review upstream license file before public redistribution.
+
+- clipper_standard 0.0.1
+  License metadata: not declared in NuGet package
+  Note: review package/source terms before public redistribution.
+
+- Emgu.CV 4.4.0.4099
+  License metadata: package license file
+  Project: http://www.emgu.com/wiki/index.php
+  Note: Emgu CV/OpenCV redistribution terms should be reviewed before public redistribution.
+
+Runtime and framework components
+
+- Microsoft PowerShell SDK 7.4.0 and System.Management.Automation 7.4.0
+  License: MIT
+  Project: https://github.com/PowerShell/PowerShell
+  License text: https://licenses.nuget.org/MIT
+
+- Microsoft .NET runtime libraries / Windows compatibility libraries
+  License: MIT
+  Project: https://github.com/dotnet/runtime
+  License text: https://licenses.nuget.org/MIT
+
+- Microsoft.CodeAnalysis.Common / Microsoft.CodeAnalysis.CSharp 4.8.0-2.final
+  License: MIT
+  Project: https://github.com/dotnet/roslyn
+  License text: https://licenses.nuget.org/MIT
+
+- Microsoft.ApplicationInsights 2.21.0
+  License: MIT
+  Project: https://github.com/microsoft/ApplicationInsights-dotnet
+  License text: https://licenses.nuget.org/MIT
+
+- Microsoft.Extensions.ObjectPool 5.0.10
+  License: Apache-2.0
+  Project: https://github.com/dotnet/aspnetcore
+  License text: https://licenses.nuget.org/Apache-2.0
+
+Other packaged .NET libraries
+
+- Newtonsoft.Json 13.0.3
+  License: MIT
+  Project: https://www.newtonsoft.com/json
+  License text: https://licenses.nuget.org/MIT
+
+- JetBrains.Annotations 2021.2.0
+  License: MIT
+  Project: https://www.jetbrains.com/help/resharper/Code_Analysis__Code_Annotations.html
+  License text: https://licenses.nuget.org/MIT
+
+- Markdig.Signed 0.33.0
+  License: BSD-2-Clause
+  Project: https://github.com/xoofx/markdig
+  License text: https://licenses.nuget.org/BSD-2-Clause
+
+- Json.More.Net 1.9.0
+  License metadata: package license file
+  Project: https://github.com/gregsdennis/json-everything
+  Note: package is part of the json-everything project.
+
+- JsonPointer.Net 3.0.3
+  License metadata: package license file
+  Project: https://github.com/gregsdennis/json-everything
+  Note: package is part of the json-everything project.
+
+- JsonSchema.Net 5.2.6
+  License: MIT
+  Project: https://github.com/gregsdennis/json-everything
+  License text: https://licenses.nuget.org/MIT
+
+- System.Numerics.Tensors 9.0.0
+  License: MIT
+  Project: https://github.com/dotnet/runtime
+  License text: https://licenses.nuget.org/MIT
+
+Compliance note
+
+Most included components are permissive MIT, Apache-2.0, or BSD-2-Clause.
+For packages whose NuGet metadata points to a package license file or does not
+declare a license, review the upstream package/license file before publishing
+the app publicly.
