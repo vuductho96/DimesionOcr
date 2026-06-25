@@ -24,14 +24,13 @@ DimensionOCR is a Windows PDF drawing OCR tool for extracting mechanical dimensi
 
 ## Quick Start
 
-1. Download the latest release package.
-2. Extract the package to any folder.
-3. Open the release folder.
-4. Run `DimensionOcr.exe`.
-5. Click `Open PDF`, or drag a PDF into the app.
-6. Review OCR rows on the right side.
-7. Fix values manually or use AI recovery.
-8. Click `Export Excel` when the table is ready.
+1. Download this repository as a ZIP, or clone it.
+2. Open `Release-SimpleDrag`.
+3. Run `DimensionOcr.exe`.
+4. Click `Open PDF`, or drag a PDF into the app.
+5. Review OCR rows on the right side.
+6. Fix values manually or use AI recovery.
+7. Click `Export Excel` when the table is ready.
 
 ## Basic Workflow
 
@@ -68,7 +67,7 @@ STEP=3 Nominal=2,002 Tol+=0,000 Tol-=0,000
 - Zoom or crop around crowded dimensions before recovery.
 - Use comma or dot decimals consistently in one review session.
 - Always review the table before exporting.
-- Keep the release folder together; support files are required even if they are hidden.
+- Keep the `Release-SimpleDrag` folder together; support files are required even if they are hidden.
 
 ## Preview
 
