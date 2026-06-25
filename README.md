@@ -11,6 +11,7 @@ DimensionOCR is a Windows PDF drawing OCR tool for extracting mechanical dimensi
 
 ##  Features
 ✅ Auto dimension zone detection
+
 ✅ Local AI support: Qwen / Phi / Gemma
 ✅ Batch inspection for multiple drawings
 ✅ JSON/API export for QA system integration
