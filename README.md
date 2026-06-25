@@ -2,16 +2,6 @@
 
 DimensionOCR is a Windows PDF drawing OCR tool for extracting mechanical dimension callouts, reviewing them step by step, correcting tolerances, and exporting clean inspection data to Excel.
 
-## Screenshots
-
-| Main workspace | Bulk recovery preview |
-| --- | --- |
-| ![DimensionOCR main workspace](docs/assets/dimensionocr-app.png) | ![Bulk recovery dialog](docs/assets/bulk-recovery-dialog.png) |
-
-| Contact sheet sent to AI | Google AI result format |
-| --- | --- |
-| ![Bulk contact sheet](docs/assets/bulk-contact-sheet.png) | ![Google AI result](docs/assets/google-ai-result.png) |
-
 ## What It Does
 
 - Opens PDF drawings for dimension review.
@@ -69,10 +59,6 @@ STEP=3 Nominal=2,002 Tol+=0,000 Tol-=0,000
 - Always review the table before exporting.
 - Keep the `Release-SimpleDrag` folder together; support files are required even if they are hidden.
 
-## Preview
-
-![DimensionOCR preview](docs/assets/dimensionocr-app.gif)
-
 ## Platform
 
 - Windows desktop
@@ -82,3 +68,4 @@ STEP=3 Nominal=2,002 Tol+=0,000 Tol-=0,000
 ## License
 
 This project is released under the repository license.
+
