@@ -1,4 +1,8 @@
-#PREVIEW 
+
+
+# DimesionOcr
+
+DimensionOCR is a Windows PDF drawing OCR tool for extracting mechanical dimension callouts, reviewing them step by step, correcting tolerances, and exporting clean inspection data to Excel.#PREVIEW 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/af14e33c-73ab-4321-bcbe-2ca9936be80a" />
 #Auto Detect Mode(Text pdf layer available )
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/62933570-f81f-4623-b89e-43b8bc113f51" />
@@ -6,9 +10,6 @@
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0868d28f-1a71-4c05-9566-e706f03a659c" />
 
 
-# DimesionOcr
-
-DimensionOCR is a Windows PDF drawing OCR tool for extracting mechanical dimension callouts, reviewing them step by step, correcting tolerances, and exporting clean inspection data to Excel.
 
 ## What It Does
 
